@@ -1,4 +1,4 @@
-## Safea Altef 
+## From Social Science to Data Sceince
 
 I am creating this repository to share my journey of transitioning from social science research methods to data science tools.
 
