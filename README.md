@@ -96,8 +96,6 @@ B.S. Economics, **Lebanese American University**
 Arabic (native), English (professional), Spanish (limited working).
  
 ---
- 
-Open to applied data science, machine learning, and analytics roles.
-[LinkedIn](https://www.linkedin.com/in/safea-altef) · safia.altef@gmail.com
+
 **Open to applied data science, ML, and LLM evaluation roles.**
-[LinkedIn](https://www.linkedin.com/in/safea-altef) · safia.altef@gmail.com
+[LinkedIn](https://www.linkedin.com/in/safea-altef) 
