@@ -1,5 +1,5 @@
 # Hi, I'm Safea
-## Applied Data Scientist — ML · NLP · LLM Evaluation · RAG
+## Applied Data Scientist | ML · NLP · LLM Evaluation · RAG
 ## Healthcare & real-world data | Arabic-language NLP | Canada
 
 
