@@ -6,7 +6,7 @@ I work on machine learning, NLP, and LLM evaluation, mostly on problems where th
 
 I'm an **AI Data Trainer and Evaluator at Cohere**, scoring model outputs against rubrics for accuracy, instruction adherence, safety, and information quality, and writing the annotation guidelines that keep those judgments consistent across reviewers. Before that I was a **Machine Learning Associate at the Vector Institute**, where I took a retrieval-augmented teaching agent from an open business question to a deployed system on GCP.
 
-Most of my public work is about the same problem from different angles: how do you tell whether a language model is actually doing the thing you think it's doing, when the output looks correct either way.
+Most of my public work is about the same problem from different angles, how do you tell whether a language model is actually doing the thing you think it's doing, when the output looks correct either way.
 
 ---
 
