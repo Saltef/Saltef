@@ -84,7 +84,7 @@ Macro recall was tracked alongside accuracy throughout, since accuracy alone rew
 
 **Unstructured data.** Clinical notes, field reports, survey free text, social media, Arabic-language corpora, and the ordinary mess of PDFs, DOCX, spreadsheets, notebooks, and HTML. Annotation design, chunking strategies, coding frames, inter-rater consistency, and the judgment about what a body of text can and cannot support.
 
-**Evaluating LLMs honestly.** Benchmarks plus human judgment. Building the rubric out of expert feedback rather than imposing it upfront, and reporting the results that contradict what I expected.
+**Evaluating LLMs.** Benchmarks plus human judgment. Building the rubric out of expert feedback rather than imposing it upfront, and reporting the results that contradict what I expected.
 
 **Retrieval systems.** RAG pipelines, hybrid lexical and dense retrieval, reranking, embeddings. The kind that can show its work.
 
