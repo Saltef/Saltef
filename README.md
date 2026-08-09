@@ -6,7 +6,7 @@ I work on machine learning, NLP, and LLM evaluation, mostly on problems where th
 
 I'm an **AI Data Trainer and Evaluator at Cohere**, scoring model outputs against rubrics for accuracy, instruction adherence, safety, and information quality, and writing the annotation guidelines that keep those judgments consistent across reviewers. Before that I was a **Machine Learning Associate at the Vector Institute**, where I took a retrieval-augmented teaching agent from an open business question to a deployed system on GCP.
 
-Most of my public work is about the same problem from different angles, how do you tell whether a language model is actually doing the thing you think it's doing, when the output looks correct either way.
+Most of my public work is about the same problem from different angles: how do you tell whether a language model is actually doing the thing you think it's doing, when the output looks correct either way.
 
 ---
 
@@ -76,6 +76,14 @@ Macro recall was tracked alongside accuracy throughout, since accuracy alone rew
 
 **Specifying ambiguous problems.** Turning "is the program working" or "is the model good" into taxonomies, rubrics, classification schemas, and defined metrics. Applied to monitoring and evaluation across a $45M USAID-funded portfolio, and to LLM classification pipelines at the Vector Institute.
 
+**Statistics, including teaching it.** I ran the statistics, regression, and research methods labs at Trent University for 250+ students and marked 600+ assignments. Teaching a method is a fast way to find out whether you understand why it was chosen rather than only how to run it. My own applied work covers regression, t-tests, chi-square, ANOVA, hypothesis testing, longitudinal and time series analysis, cohort modelling, segmentation, and systematic review with meta-analysis.
+
+**Quantitative and qualitative, and knowing which one the question needs.** My published work includes a meta-analysis and three years of longitudinal EMR analysis on one side, and discourse and thematic analysis of Arabic-language media on the other. The useful part is not holding both sets of techniques. It is being able to decompose a vague question far enough to see which kind of evidence would actually answer it, and to say when the available data cannot support the method someone has already decided to use.
+
+**Operationalising constructs from the literature.** Taking a concept as defined in published research and turning it into something measurable: coding frames, annotation schemas, and the parameter choices that follow. In practice this has meant building sentiment and stance instruments tuned per topic rather than running one generic classifier across everything, since the same lexical signal carries different meaning across domains, and documenting the construct definition so the measurement can be audited later.
+
+**Unstructured data.** Clinical notes, field reports, survey free text, social media, Arabic-language corpora, and the ordinary mess of PDFs, DOCX, spreadsheets, notebooks, and HTML. Annotation design, chunking strategies, coding frames, inter-rater consistency, and the judgment about what a body of text can and cannot support.
+
 **Evaluating LLMs honestly.** Benchmarks plus human judgment. Building the rubric out of expert feedback rather than imposing it upfront, and reporting the results that contradict what I expected.
 
 **Retrieval systems.** RAG pipelines, hybrid lexical and dense retrieval, reranking, embeddings. The kind that can show its work.
@@ -89,11 +97,32 @@ Macro recall was tracked alongside accuracy throughout, since accuracy alone rew
 ## Methods and tools
 
 ```
-Python · R · SQL
-PyTorch · scikit-learn · transformers · sentence-transformers · ONNX Runtime · Argilla
-RAG and embedding pipelines · Qdrant · BM25 and hybrid retrieval · reranking · BEIR
-FastAPI · Docker · Render · Git · GitHub Actions · pytest · ruff · GCP
-Longitudinal and time series analysis · regression · cohort modelling · segmentation · Power BI · Tableau
+Languages        Python · R · SQL
+
+ML and DL        PyTorch · TensorFlow · scikit-learn · ONNX Runtime
+
+LLM and NLP      HuggingFace Transformers · sentence-transformers · LangChain · LangGraph
+                 LlamaIndex · BERT · topic modelling · sentiment and stance analysis
+                 named entity recognition · annotation pipelines · Arabic corpus building
+
+Retrieval        RAG · BM25 and hybrid retrieval · reciprocal rank fusion · reranking
+                 embeddings · Qdrant · pgvector · BEIR
+
+Evaluation       Argilla · rubric and gold set design · benchmark curation
+                 regression evaluation · LLM judge calibration · failure taxonomies
+                 source provenance measurement · conformal selective routing
+
+Statistics       regression · t-tests · chi-square · ANOVA · hypothesis testing
+                 longitudinal and time series analysis · cohort modelling · segmentation
+                 systematic review and meta-analysis · SPSS
+
+Qualitative      thematic coding · discourse and content analysis · mixed methods design
+                 stakeholder and practitioner interviews · inter-rater consistency
+
+Engineering      FastAPI · Docker · Render · Git · GitHub Actions · pytest · ruff
+                 Prometheus · OpenTelemetry · GCP
+
+Reporting        Power BI · Tableau · Excel
 ```
 
 ---
