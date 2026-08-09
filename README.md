@@ -6,7 +6,84 @@ I work on machine learning, NLP, and LLM evaluation, mostly on problems where th
 
 I'm an **AI Data Trainer and Evaluator at Cohere**, scoring model outputs against rubrics for accuracy, instruction adherence, safety, and information quality, and writing the annotation guidelines that keep those judgments consistent across reviewers. Before that I was a **Machine Learning Associate at the Vector Institute**, where I took a retrieval-augmented teaching agent from an open business question to a deployed system on GCP.
 
-Most of my public work is about the same problem from different angles: how do you tell whether a language model is actually doing the thing you think it's doing, when the output looks correct either way.
+Most of my [public work](#projects) is about the same problem from different angles: how do you tell whether a language model is actually doing the thing you think it's doing, when the output looks correct either way.
+
+---
+
+## Background
+
+Economics, then media and cultural studies, then big data analytics. Two master's degrees and a period working in Arabic computational linguistics.
+
+The practical effect of that path is that I treat problem specification as the substantive step rather than a preliminary one. Method selection is usually the easier decision, and it depends on getting the prior question right: what is being asked, what would count as an answer, and what the available data can bear.
+
+My [published work](#publications) spans four domains, and the recurring pattern is the same each time. Enter an unfamiliar field, learn it to the standard that field requires for publication, work out what in it can be measured, and then apply quantitative methods inside those constraints rather than imported from outside them. Situational judgement testing, dementia referral pathways, Arab news media, and Libyan visual art each needed a different definition of what counts as evidence before any method was appropriate. That is the transferable skill, more than any individual technique.
+
+It also means being precise about what each piece of work actually is. The systematic review is a meta-analysis across a heterogeneous assessment literature, where the hard part was deciding what counted as the same instrument across studies that measured it differently. The media studies work is qualitative and I do not present it as computational. The dementia work is three years of longitudinal EMR analysis, and the AAIC entry from it is a conference abstract rather than a journal article.
+
+---
+
+## What I'm good at
+
+**Specifying ambiguous problems.** Turning "is the program working" or "is the model good" into taxonomies, rubrics, classification schemas, and defined metrics. Applied to monitoring and evaluation across a $45M USAID-funded portfolio, and to LLM classification pipelines at the Vector Institute.
+
+**Statistics, including teaching it.** I ran the statistics, regression, and research methods labs at Trent University for 250+ students and marked 600+ assignments. Teaching a method is a fast way to find out whether you understand why it was chosen rather than only how to run it. My own applied work covers regression, t-tests, chi-square, ANOVA, hypothesis testing, longitudinal and time series analysis, cohort modelling, segmentation, and systematic review with meta-analysis.
+
+**Quantitative and qualitative, and knowing which one the question needs.** My published work includes a meta-analysis and three years of longitudinal EMR analysis on one side, and discourse and thematic analysis of Arabic-language media on the other. The useful part is not holding both sets of techniques. It is being able to decompose a vague question far enough to see which kind of evidence would actually answer it, and to say when the available data cannot support the method someone has already decided to use.
+
+**Operationalising constructs from the literature.** Taking a concept as defined in published research and turning it into something measurable: coding frames, annotation schemas, and the parameter choices that follow. In practice this has meant building sentiment and stance instruments tuned per topic rather than running one generic classifier across everything, since the same lexical signal carries different meaning across domains, and documenting the construct definition so the measurement can be audited later.
+
+**Unstructured data.** Clinical notes, field reports, survey free text, social media, Arabic-language corpora, and the ordinary mess of PDFs, DOCX, spreadsheets, notebooks, and HTML. Annotation design, chunking strategies, coding frames, inter-rater consistency, and the judgment about what a body of text can and cannot support.
+
+**Evaluating LLMs honestly.** Benchmarks plus human judgment. Building the rubric out of expert feedback rather than imposing it upfront, and reporting the results that contradict what I expected.
+
+**Retrieval systems.** RAG pipelines, hybrid lexical and dense retrieval, reranking, embeddings. The kind that can show its work.
+
+**Healthcare data.** EMRs under real privacy constraints, cohort and longitudinal models, dementia care pathways. This is where my domain knowledge is deepest.
+
+**Arabic NLP.** Transformer modelling, annotation pipelines, corpus building for a language that most tooling treats as an afterthought.
+
+---
+
+## Methods and tools
+
+```
+Languages        Python · R · SQL
+
+ML and DL        PyTorch · TensorFlow · scikit-learn · ONNX Runtime
+
+LLM and NLP      HuggingFace Transformers · sentence-transformers · LangChain · LangGraph
+                 LlamaIndex · BERT · topic modelling · sentiment and stance analysis
+                 named entity recognition · annotation pipelines · Arabic corpus building
+
+Retrieval        RAG · BM25 and hybrid retrieval · reciprocal rank fusion · reranking
+                 embeddings · Qdrant · pgvector · BEIR
+
+Evaluation       Argilla · rubric and gold set design · benchmark curation
+                 regression evaluation · LLM judge calibration · failure taxonomies
+                 source provenance measurement · conformal selective routing
+
+Statistics       regression · t-tests · chi-square · ANOVA · hypothesis testing
+                 longitudinal and time series analysis · cohort modelling · segmentation
+                 systematic review and meta-analysis · SPSS
+
+Qualitative      thematic coding · discourse and content analysis · mixed methods design
+                 stakeholder and practitioner interviews · inter-rater consistency
+
+Engineering      FastAPI · Docker · Render · Git · GitHub Actions · pytest · ruff
+                 Prometheus · OpenTelemetry · GCP
+
+Reporting        Power BI · Tableau · Excel
+```
+
+---
+
+## Education
+
+M.Sc. Big Data Analytics, **Trent University**
+M.A. Media and Cultural Studies, **Doha Institute for Graduate Studies**
+B.S. Economics, **Lebanese American University**
+
+Arabic (native), English (full professional), Spanish (limited working).
 
 ---
 
@@ -62,9 +139,7 @@ The application is straightforward. The methodological record is the substance o
 
 Macro recall was tracked alongside accuracy throughout, since accuracy alone rewards majority-class collapse on imbalanced data. **[Full write-up](https://github.com/Saltef/DermaLens/blob/main/PORTFOLIO_WRITEUP.md)**
 
----
-
-## In progress
+### In progress
 
 **Kinera.** A sensor framework for detecting functional decline in older adults ageing in place, connecting IoT architecture to geriatric care research. MSc capstone, presented at the Vector Institute's *Remarkable 2026* showcase. Not yet public.
 
@@ -72,90 +147,15 @@ Macro recall was tracked alongside accuracy throughout, since accuracy alone rew
 
 ---
 
-## What I'm good at
-
-**Specifying ambiguous problems.** Turning "is the program working" or "is the model good" into taxonomies, rubrics, classification schemas, and defined metrics. Applied to monitoring and evaluation across a $45M USAID-funded portfolio, and to LLM classification pipelines at the Vector Institute.
-
-**Statistics, including teaching it.** I ran the statistics, regression, and research methods labs at Trent University for 250+ students and marked 600+ assignments. Teaching a method is a fast way to find out whether you understand why it was chosen rather than only how to run it. My own applied work covers regression, t-tests, chi-square, ANOVA, hypothesis testing, longitudinal and time series analysis, cohort modelling, segmentation, and systematic review with meta-analysis.
-
-**Quantitative and qualitative, and knowing which one the question needs.** My published work includes a meta-analysis and three years of longitudinal EMR analysis on one side, and discourse and thematic analysis of Arabic-language media on the other. The useful part is not holding both sets of techniques. It is being able to decompose a vague question far enough to see which kind of evidence would actually answer it, and to say when the available data cannot support the method someone has already decided to use.
-
-**Operationalising constructs from the literature.** Taking a concept as defined in published research and turning it into something measurable: coding frames, annotation schemas, and the parameter choices that follow. In practice this has meant building sentiment and stance instruments tuned per topic rather than running one generic classifier across everything, since the same lexical signal carries different meaning across domains, and documenting the construct definition so the measurement can be audited later.
-
-**Unstructured data.** Clinical notes, field reports, survey free text, social media, Arabic-language corpora, and the ordinary mess of PDFs, DOCX, spreadsheets, notebooks, and HTML. Annotation design, chunking strategies, coding frames, inter-rater consistency, and the judgment about what a body of text can and cannot support.
-
-**Evaluating LLMs.** Benchmarks plus human judgment. Building the rubric out of expert feedback rather than imposing it upfront, and reporting the results that contradict what I expected.
-
-**Retrieval systems.** RAG pipelines, hybrid lexical and dense retrieval, reranking, embeddings. The kind that can show its work.
-
-**Healthcare data.** EMRs under real privacy constraints, cohort and longitudinal models, dementia care pathways. This is where my domain knowledge is deepest.
-
-**Arabic NLP.** Transformer modelling, annotation pipelines, corpus building for a language that most tooling treats as an afterthought.
-
----
-
-## Methods and tools
-
-```
-Languages        Python · R · SQL
-
-ML and DL        PyTorch · TensorFlow · scikit-learn · ONNX Runtime
-
-LLM and NLP      HuggingFace Transformers · sentence-transformers · LangChain · LangGraph
-                 LlamaIndex · BERT · topic modelling · sentiment and stance analysis
-                 named entity recognition · annotation pipelines · Arabic corpus building
-
-Retrieval        RAG · BM25 and hybrid retrieval · reciprocal rank fusion · reranking
-                 embeddings · Qdrant · pgvector · BEIR
-
-Evaluation       Argilla · rubric and gold set design · benchmark curation
-                 regression evaluation · LLM judge calibration · failure taxonomies
-                 source provenance measurement · conformal selective routing
-
-Statistics       regression · t-tests · chi-square · ANOVA · hypothesis testing
-                 longitudinal and time series analysis · cohort modelling · segmentation
-                 systematic review and meta-analysis · SPSS
-
-Qualitative      thematic coding · discourse and content analysis · mixed methods design
-                 stakeholder and practitioner interviews · inter-rater consistency
-
-Engineering      FastAPI · Docker · Render · Git · GitHub Actions · pytest · ruff
-                 Prometheus · OpenTelemetry · GCP
-
-Reporting        Power BI · Tableau · Excel
-```
-
----
-
-## Education
-
-M.Sc. Big Data Analytics, **Trent University**
-M.A. Media and Cultural Studies, **Doha Institute for Graduate Studies**
-B.S. Economics, **Lebanese American University**
-
-Arabic (native), English (full professional), Spanish (limited working).
-
----
-
 ## Publications
 
-Economics, then media and cultural studies, then big data analytics. Two master's degrees and a period working in Arabic computational linguistics.
-
-The practical effect of that path is that I treat problem specification as the substantive step rather than a preliminary one. Method selection is usually the easier decision, and it depends on getting the prior question right: what is being asked, what would count as an answer, and what the available data can bear.
-
-The published work spans four domains, and the recurring pattern is the same each time. Enter an unfamiliar field, learn it to the standard the field requires for publication, work out what in it can be measured, and then apply quantitative methods inside those constraints rather than imported from outside them. Situational judgement testing, dementia referral pathways, Arab news media, and Libyan visual art each needed a different definition of what counts as evidence before any method was appropriate. That is the transferable skill, more than any individual technique.
-
 **MacIntosh A, Henning C, Altef S, et al.** Validity of constructed-response situational judgement tests in health professions education: a systematic review and meta-analysis. *Medical Education*, 2026. [doi:10.1111/medu.70245](https://doi.org/10.1111/medu.70245)
-Systematic review methodology and meta-analysis across a heterogeneous assessment literature. The hard part was construct definition: deciding what counted as the same instrument across studies that measured it differently.
 
 **Jebril N, Altef S.** Perceptions of data journalism and its impact on democratising Arab news media. *Journalism*, 2024;25(7):1500 to 1518.
-Qualitative study of practitioner perceptions across Arab newsrooms. Not a computational paper, and I don't present it as one.
 
 **Altef S.** Cultural identity in Libyan and Yemeni social media visual art. In *Media and Democracy in the Middle East*, pp. 100 to 117. Routledge, 2023.
-Book chapter from my MA thesis. Visual and discourse analysis of Arabic-language social media during and after conflict.
 
-**Ingram KJ, Carr D, Arsenault-Lapierre G, Altef S.** Impact of an embedded memory team in primary care. *Alzheimer's and Dementia*, 2025;21(Suppl 4):e103774.
-Conference abstract presented at AAIC. Full manuscript in preparation. Three years of longitudinal EMR analysis comparing referral rates and diagnostic timelines between intervention and control groups.
+**Ingram KJ, Carr D, Arsenault-Lapierre G, Altef S.** Impact of an embedded memory team in primary care. *Alzheimer's and Dementia*, 2025;21(Suppl 4):e103774. Conference abstract presented at AAIC. Full manuscript in preparation.
 
 ORCID: [0000-0002-8916-5738](https://orcid.org/0000-0002-8916-5738)
 
